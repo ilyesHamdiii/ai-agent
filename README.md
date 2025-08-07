@@ -1,6 +1,18 @@
-# AI Agent
+# Cipher
 
-AI Agent is a command-line coding assistant powered by Google Gemini, designed to help you interact with and manage Python projects.
+Cipher is a command-line coding assistant powered by Google Gemini, designed to help you interact with and manage Python projects.
+
+---
+
+## Why Cipher?
+
+Cipher was created to simplify working with Python projects from the command line. It helps automate repetitive tasks, provides quick access to project information, and assists with code management, all without leaving your terminal.
+
+---
+
+## Motivation
+
+Managing and navigating codebases can be time-consuming, especially when switching between tools. Cipher aims to keep everything in one place, making it easier to focus on development and problem-solving.
 
 ---
 
@@ -18,6 +30,7 @@ cd ai-agent
 Make sure you have **Python 3.13+** installed.
 
 Check your version:
+
 ```sh
 python3 --version
 ```
@@ -34,7 +47,9 @@ source venv/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
+
 Or, if using `pyproject.toml`:
+
 ```sh
 pip install .
 ```
@@ -42,6 +57,7 @@ pip install .
 ### 5. Configure Your API Key
 
 Create a `.env` file in the project root:
+
 ```
 GEMINI_API_KEY=your_api_key_here
 ```
@@ -53,6 +69,7 @@ python main.py "your prompt here" [--verbose]
 ```
 
 **Example:**
+
 ```sh
 python main.py "List all files in the calculator directory"
 ```
@@ -75,7 +92,3 @@ python main.py "List all files in the calculator directory"
 - See `pyproject.toml` for dependencies
 
 ---
-
-## 📄 License
-
-MIT License (add your license text here)
